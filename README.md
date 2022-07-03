@@ -19,3 +19,4 @@ Create a web application that scrapes data from various websites related to the 
 -   updated images to thumbnails
 
 ![Mobile_view](https://user-images.githubusercontent.com/103215123/177053707-208d4edc-544b-47b0-b191-0a26e2bc5bb1.png)
+![Scrape Button - Info Style](https://user-images.githubusercontent.com/103215123/177053811-fca4e922-f9ec-47ef-9ca9-55ce6f39b954.png)
