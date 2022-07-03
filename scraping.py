@@ -128,13 +128,14 @@ def hemispheres(browser):
         images = len(hemi_soup.select("div.item"))
 
         for i in range(images):
-            hemispheres = {"img_url": img_url, "title": title}
+            hemispheres = {}
             browser.find_by_css('a.product-item h3')[i].click()
             element = browser.links.find_by_text('Sample').first
             img_url = element['href']
             title = browser.find_by_css("h2.title").text
-            hemispheres['img_url'] = img_url
-            hemispheres['title'] = title
+            #hemispheres['img_url'] = img_url
+            #hemispheres['title'] = title
+            hemispheres = {"img_url": img_url, "title": title}
                     
             hemisphere_image_urls.append(hemispheres)
             browser.back()
